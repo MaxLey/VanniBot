@@ -1,0 +1,32 @@
+{
+	"94857504332189696": {
+		"name": "Vanni",
+		"characters": {
+			"Alli": {
+				"str": "1",
+				"dex": "2",
+				"con": "3",
+				"int": "4",
+				"cha": "5",
+				"wil": "6"
+			},
+			"Meepp": {
+				"str": "1",
+				"dex": "2",
+				"con": "3",
+				"int": "4",
+				"cha": "5",
+				"wil": "6"
+			},
+			"Kobe": {
+				"str": "5",
+				"dex": "2",
+				"con": "0",
+				"int": "4",
+				"cha": "2",
+				"wil": "1"
+			}
+		},
+		"activeChar": "Alli"
+	}
+}
