@@ -60,6 +60,21 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 case 'commands':
                     printCommands(channelID);
                     break;
+                case 'initparties':
+                    initParties(channelID);
+                    break;
+                case 'makeparty':
+                    makeParty(args, channelID);
+                    break;
+                case 'joinparty':
+                    joinParty(args, user, userID, channelID);
+                    break;
+                case 'rollparty':
+                    rollParty(args, channelID);
+                    break;
+                case 'deleteparty':
+                    deleteParty(args, channelID);
+                    break;
             }
         }
     }
@@ -68,6 +83,26 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         console.log(err);
     }
 });
+
+function initParties(channelID){
+    //TODO implement
+}
+
+function makeParty(channelID){
+    //TODO implement
+}
+
+function joinParty(channelID){
+    //TODO implement
+}
+
+function rollParty(channelID){
+    //TODO implement
+}
+
+function deleteParty(channelID){
+    //TODO implement
+}
 
 function printCommands(channelID){
     var message = "Currently available commands: !ping, !me, !addchar, !initusers, !active, !roll, !characters, !deletechar, !commands";
